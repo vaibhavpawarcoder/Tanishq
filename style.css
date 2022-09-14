@@ -1,0 +1,149 @@
+
+header {
+    height:90vh;
+    min-height:400px;
+    background-size:cover;
+    background: url('img/banner.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+}
+.course{
+    height:82vh;
+    min-height:400px;
+    background-size:cover;
+    background: url('img/class.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 71.9125px;
+}
+
+img{
+    cursor: pointer;
+    transition: 0.5s all;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+    
+}
+img:hover{
+    transform: scale(1.2); /* 150%zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 30px;
+}
+.btn{
+    border: white soild 2px o !important; 
+    transition: 0.5s all;
+}
+
+.btn:hover{
+    box-shadow:  8px 8px 8px grey   ;
+    border-radius: 20px;
+}
+
+.blog-link{
+    border: white soild 2px o !important; 
+    transition: 0.5s all;
+    box-sizing: 10px 10px 10px white !important;
+}
+
+.blog-link:hover{
+    box-shadow:  8px 8px 8px grey   ;
+    border-radius: 20px;
+}
+
+.course-blog{
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.course-blog:hover{
+    box-shadow: 20px 20px 20px grey !important;
+    transform: scale(1.1);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.icon:hover{
+    text-shadow:  5px 5px 5px grey   ;
+}
+
+.mem{
+    
+    border-radius: 15px 5px 10px ;
+    transition: 0.5 all;
+}
+.mem:hover{
+    border-radius: 30px 60px 50px ;
+    transform: scale(1.1);
+}
+.text-logo{
+    font-weight: bolder;
+}
+#About-head{
+    margin-top: 250px;
+    left: 0;
+}
+
+.footer{
+    background-color: rgba(1, 1, 10, 0.901);
+    color: white !important;
+}
+.bar-menu{
+    cursor: pointer;
+    transition: 0.5 s ease;
+}
+.bar-menu:hover{
+    color: red !important;
+}
+.footer-rights{
+    background-color: black ;
+    color: white;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 376px){
+    tr{
+        font-size: 8px;
+    }
+    header {
+        height:95vh;
+        min-height:400px;
+        background-size:cover;
+        background: url('img/banner.png') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 71.9125px;
+    }
+}
+@media only screen and (max-width: 415px){
+    tr{
+        font-size: 8px;
+    }
+    header {
+        height:95vh;
+        min-height:400px;
+        background-size:cover;
+        background: url('img/banner.png') no-repeat center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 0 71.9125px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .video{
+        display: none;
+    }
+}
+#About-head p{
+    transition: 0.5 all ease;
+    cursor: pointer;
+}
+#About-head h1{
+    transition: 0.5 all ease;
+    cursor: pointer;
+}
+#About-head h1:hover{
+    color: red !important;
+}
+.foot-link-vp{
+    text-decoration: none !important;
+}
